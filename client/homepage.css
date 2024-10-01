@@ -1,0 +1,22 @@
+*{
+    margin: auto;
+}
+
+nav{
+
+    background-color: lightskyblue;
+    padding: 1em;
+    display: flex;
+    font-weight: 700;
+    font-size: larger;
+    li{
+        display: inline-block;
+        list-style: none;
+        padding: 0em 3em 0em 5em;
+    }
+}
+
+body{
+
+    background-color:bisque;
+}
