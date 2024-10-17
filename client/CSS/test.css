@@ -4,7 +4,7 @@
 
 nav{
 
-    background-color: lightskyblue;
+    background-color: rgb(38, 174, 153);
     padding: 1em;
     display: flex;
     font-weight: 900;
@@ -13,7 +13,7 @@ nav{
     li,a{
         display: inline-block;
         list-style: none;
-        padding: 0em 3em 0em 5em;
+        padding: 0em 3em 0em 3em;
         text-decoration: none;
         color: black;
     }
@@ -31,6 +31,17 @@ body{
     margin: 2em 5em 2em 5em ;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form_seperator1{
+    height: 2px;
+    background: black;
+    margin-left: 14em;
+}
+.form_seperator2{
+    height: 2px;
+    background: black;
+    margin-left: 12em;
 }
 
 h2 {
@@ -63,7 +74,7 @@ input {
 button {
     padding: 10px;
     grid-column: span 2;
-    background-color: #28a745;
+    background-color: #5145be;
     color: white;
     border: none;
     border-radius: 5px;
@@ -72,7 +83,13 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #214f88;
+}
+
+.form_submition_btn{
+    width: 10em;
+    justify-content: center;
+    font-size: larger;
 }
 
 /* #result {
