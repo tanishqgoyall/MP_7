@@ -1,0 +1,25 @@
+*{
+    margin: auto;
+}
+
+nav{
+
+    background-color: lightskyblue;
+    padding: 1em;
+    display: flex;
+    font-weight: 900;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    li,a{
+        display: inline-block;
+        list-style: none;
+        padding: 0em 3em 0em 5em;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+body{
+
+    background-color:bisque;
+}
