@@ -55,3 +55,42 @@ body{
     color: #666; /* Softer text color */
     line-height: 1.6; /* Increased line height for readability */
 }
+
+.featured-careers {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 2rem; /* Padding around the section */
+    text-align: center; /* Centered text */
+    border-radius: 8px; /* Rounded corners */
+    margin: 2rem 0; /* Margin above and below the section */
+}
+
+.featured-careers h2 {
+    font-size: 2rem; /* Large heading */
+    color: #333; /* Dark text color */
+    margin-bottom: 1.5rem; /* Space below heading */
+}
+
+.career-card {
+    background-color: #ffffff; /* White background for cards */
+    border: 1px solid #ccc; /* Light border for cards */
+    border-radius: 5px; /* Rounded corners for cards */
+    padding: 1.5rem; /* Padding inside the cards */
+    margin: 1rem; /* Margin around the cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.career-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.career-card h3 {
+    font-size: 1.5rem; /* Medium heading for career titles */
+    color: #007BFF; /* Primary color for titles */
+    margin-bottom: 0.5rem; /* Space below career title */
+}
+
+.career-card p {
+    color: #666; /* Softer text color */
+    line-height: 1.5; /* Increased line height for readability */
+}
