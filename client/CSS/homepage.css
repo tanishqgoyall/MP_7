@@ -4,7 +4,7 @@
 
 nav{
 
-    background-color: lightskyblue;
+    background-color: rgb(38, 174, 153);
     padding: 1em;
     display: flex;
     font-weight: 900;
@@ -13,7 +13,7 @@ nav{
     li,a{
         display: inline-block;
         list-style: none;
-        padding: 0em 3em 0em 5em;
+        padding: 0em 3em 0em 3em;
         text-decoration: none;
         color: black;
     }
